@@ -61,4 +61,8 @@ func main() {
 	type TempatLahir string
 	var tempat_lahir TempatLahir = "Yogyakarta"
 	fmt.Println(tempat_lahir)
+
+	// biasanya kalau dibeberapa bahasa program itu null tapi di golang itu nil
+	var test any = nil
+	fmt.Println(test)
 }
